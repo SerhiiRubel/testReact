@@ -26,3 +26,43 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.productList {
+  background: aliceblue;
+}
+
+.productsWrapper {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  justify-content: center;
+}
+
+.twoColumns {
+  grid-template-columns: 300px 300px;
+}
+
+.productItem {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.productItem h3 {
+
+}
+
+button {
+  cursor: pointer;
+  padding: 15px 30px;
+  color: white;
+  font-size: 18px;
+  background-color: #222;
+  border: none;
+  outline: none;
+  margin-bottom: 35px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
